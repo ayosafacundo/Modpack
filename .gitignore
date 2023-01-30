@@ -1,5 +1,15 @@
 /backups
-/config
+/config/alexsmobs
+/config/apotheosis
+/config/ars_nouveau
+/config/biomesoplenty
+/config/byg
+/config/jei
+/config/travel_anchors
+/config/*.toml
+/config/*.json
+/config/*.snbt
+/config/*.cfg
 /crash-reports
 /defaultconfigs
 /local

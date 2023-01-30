@@ -1,0 +1,26 @@
+{
+	id: "344A19863BECF7B8"
+	group: ""
+	order_index: 0
+	filename: "starting"
+	title: "Starting"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "Bienvenido al Servidor!"
+		x: 0.0d
+		y: 0.0d
+		subtitle: "Tu aventura te espera!"
+		description: [
+			"Primero que nada, ¡Bienvenido!\\n\\nEste servidor cuenta con *MUCHOS* mods, probablemente te sientas abrumado/a con las opciones, asi que tranquilo/a, éste librito (que podés abrir clickeando arriba a la izquierda, en el ícono del libro) te va a ayudar a avanzar en todos (o casi todos) los mods que hay. ¡Divertite!\\n"
+			"Para completar la misión y seguir con la cadena, tenés que clickear en el ícono debajo de \"Tasks\""
+		]
+		id: "4D7DF04211F39E27"
+		tasks: [{
+			id: "5D6E6C0902F6FFA0"
+			type: "checkmark"
+			title: "Welcome!"
+		}]
+	}]
+	quest_links: [ ]
+}
