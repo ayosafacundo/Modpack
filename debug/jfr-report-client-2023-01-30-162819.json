@@ -1,0 +1,93 @@
+{
+  "startedEpoch": 1675106900509,
+  "endedEpoch": 1675106912653,
+  "durationMs": 12144,
+  "heap": {
+    "allocationRateBytesPerSecond": 3.4603008E7,
+    "gcCount": 2,
+    "gcOverHeadPercent": 0.49201253,
+    "gcTotalDurationMs": 5975
+  },
+  "cpuPercent": {
+    "jvm": {
+      "min": 0.0,
+      "average": 0.012866434951623281,
+      "max": 0.02062149904668331
+    },
+    "userJvm": {
+      "min": 0.0,
+      "average": 0.4749557177225749,
+      "max": 0.6919658780097961
+    },
+    "system": {
+      "min": 0.7192218899726868,
+      "average": 0.8444522519906362,
+      "max": 1.0
+    }
+  },
+  "network": {
+    "sent": {
+      "totalBytes": 0,
+      "count": 0,
+      "bytesPerSecond": 0.0,
+      "countPerSecond": 0.0,
+      "topContributors": []
+    },
+    "received": {
+      "totalBytes": 0,
+      "count": 0,
+      "bytesPerSecond": 0.0,
+      "countPerSecond": 0.0,
+      "topContributors": []
+    }
+  },
+  "fileIO": {
+    "write": {
+      "totalBytes": 1208,
+      "count": 6,
+      "bytesPerSecond": 100.66666666666667,
+      "countPerSecond": 0.5,
+      "topContributors": [
+        {
+          "path": "logs\\latest.log",
+          "totalBytes": 358
+        }
+      ]
+    },
+    "read": {
+      "totalBytes": 143234,
+      "count": 22,
+      "bytesPerSecond": 11936.166666666666,
+      "countPerSecond": 1.8333333333333333,
+      "topContributors": [
+        {
+          "path": "G:\\Games\\Modded Minecraft\\Install\\assets\\objects\\ca\\cab779f1a15d9fe49bcc975d077717ebd1f87cda",
+          "totalBytes": 139725
+        },
+        {
+          "path": "G:\\Games\\Modded Minecraft\\Install\\libraries\\net\\minecraft\\client\\1.18.2-20220404.173914\\client-1.18.2-20220404.173914-srg.jar",
+          "totalBytes": 3509
+        }
+      ]
+    }
+  },
+  "serverTick": {
+    "minMs": 6.588911,
+    "averageMs": 24.744849833333333,
+    "maxMs": 47.628896,
+    "p99": 46.6014698,
+    "p90": 37.354634,
+    "p75": 26.6244715,
+    "p50": 23.981416
+  },
+  "threadAllocation": [
+    {
+      "thread": "FileSystemWatchService",
+      "bytesPerSecond": Infinity
+    }
+  ],
+  "chunkGen": {
+    "durationNanosTotal": 0.0,
+    "status": []
+  }
+}
