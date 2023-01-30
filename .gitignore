@@ -1,0 +1,17 @@
+backups
+config
+crash-reports
+defaultconfigs
+local
+logs
+patchouli_books
+resourcepacks
+saves
+schematics
+tconplanner
+structurize
+./usercache.json
+./usernamecache.json
+./patchouli_data.json
+./options.txt
+./minecraftinstance.json
